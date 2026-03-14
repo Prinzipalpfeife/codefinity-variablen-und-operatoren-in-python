@@ -2,10 +2,10 @@
 distance_in_kilometers = 4677.4
 
 # Convert distance to miles and store in `distance_in_miles`
-___ = ___
+distance_in_miles = distance_in_kilometers / 1.609
 
 # Convert variable type to int and store in `int_distance_in_miles`
-___ = ___
+int_distance_in_miles = int(distance_in_miles)
 
 # Testing
 print("San Francisco - New York distance (float): ", distance_in_miles, "mi")
